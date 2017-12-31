@@ -21,7 +21,7 @@ local function ULibRPC()
 
 	fn( unpack( args, 1, max ) )
 end
-net.Receive( "URPC", ULibRPC )
+net.Receive( "URPC", ULibRPC ) -- any lags
 
 
 --[[
